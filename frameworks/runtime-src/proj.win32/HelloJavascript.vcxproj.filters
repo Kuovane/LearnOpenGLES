@@ -1,0 +1,689 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="resource">
+      <UniqueIdentifier>{ca9c9e15-d942-43a1-aa7a-5f0b74ca1afd}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest</Extensions>
+    </Filter>
+    <Filter Include="win32">
+      <UniqueIdentifier>{ccb2323b-1cfa-41ea-bcf4-ba5f07309396}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{e93a77e1-af1e-4400-87d3-504b62ebdbb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\glad">
+      <UniqueIdentifier>{ee82ad77-761b-4174-aed6-7c165266b0e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\io">
+      <UniqueIdentifier>{0362ab06-5429-410d-8eb8-83ef80a1f5d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\2d">
+      <UniqueIdentifier>{14c84077-ed08-4905-b96e-dd02e52971bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\glm">
+      <UniqueIdentifier>{d5e1fa0d-014c-4df5-862f-10132aa10d0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\assimp">
+      <UniqueIdentifier>{7bcc5a4b-e7d4-4d8a-bd3d-c60cecf29027}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\math">
+      <UniqueIdentifier>{024a4962-fc39-4a68-b3ea-5516bf1a3e13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\glm\ext">
+      <UniqueIdentifier>{89dfc9ad-3360-4229-a408-bb675087d8ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\lesson">
+      <UniqueIdentifier>{6871fb51-eeb9-42aa-86eb-37143cfd4264}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cocos2d-x\cocos\scripting\js-bindings\manual\jsb_module_register.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MyGame.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\glad_gl.c">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\glad_vulkan.c">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\io\VxFile.cpp">
+      <Filter>Classes\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\2d\MyNode.cpp">
+      <Filter>Classes\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\2d\MySprite.cpp">
+      <Filter>Classes\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\math\Vector3.cpp">
+      <Filter>Classes\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lesson\Lesson1.cpp">
+      <Filter>Classes\lesson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MyUtils.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="..\Classes\MyGame.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glad\gl.h">
+      <Filter>Classes\glad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glad\khrplatform.h">
+      <Filter>Classes\glad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glad\vk_platform.h">
+      <Filter>Classes\glad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glad\vulkan.h">
+      <Filter>Classes\glad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\VxConst.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\VxDef.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\VxExternal.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\VxType.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\XGMacros.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\io\VxFile.h">
+      <Filter>Classes\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\2d\MyNode.h">
+      <Filter>Classes\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\2d\MySprite.h">
+      <Filter>Classes\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\common.hpp">
+      <Filter>Classes\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\exponential.hpp">
+      <Filter>Classes\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext.hpp">
+      <Filter>Classes\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\fwd.hpp">
+      <Filter>Classes\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\geometric.hpp">
+      <Filter>Classes\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\glm.hpp">
+      <Filter>Classes\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\integer.hpp">
+      <Filter>Classes\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\mat2x2.hpp">
+      <Filter>Classes\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\mat2x3.hpp">
+      <Filter>Classes\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\mat2x4.hpp">
+      <Filter>Classes\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\mat3x2.hpp">
+      <Filter>Classes\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\mat3x3.hpp">
+      <Filter>Classes\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\mat3x4.hpp">
+      <Filter>Classes\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\mat4x2.hpp">
+      <Filter>Classes\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\mat4x3.hpp">
+      <Filter>Classes\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\mat4x4.hpp">
+      <Filter>Classes\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\matrix.hpp">
+      <Filter>Classes\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\packing.hpp">
+      <Filter>Classes\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\trigonometric.hpp">
+      <Filter>Classes\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\vec2.hpp">
+      <Filter>Classes\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\vec3.hpp">
+      <Filter>Classes\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\vec4.hpp">
+      <Filter>Classes\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\vector_relational.hpp">
+      <Filter>Classes\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\linmath.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\assimp\ai_assert.h">
+      <Filter>Classes\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\assimp\anim.h">
+      <Filter>Classes\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\assimp\camera.h">
+      <Filter>Classes\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\assimp\cexport.h">
+      <Filter>Classes\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\assimp\cfileio.h">
+      <Filter>Classes\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\assimp\cimport.h">
+      <Filter>Classes\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\assimp\color4.h">
+      <Filter>Classes\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\assimp\config.h">
+      <Filter>Classes\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\assimp\DefaultLogger.hpp">
+      <Filter>Classes\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\assimp\defs.h">
+      <Filter>Classes\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\assimp\Exporter.hpp">
+      <Filter>Classes\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\assimp\Importer.hpp">
+      <Filter>Classes\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\assimp\importerdesc.h">
+      <Filter>Classes\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\assimp\IOStream.hpp">
+      <Filter>Classes\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\assimp\IOSystem.hpp">
+      <Filter>Classes\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\assimp\light.h">
+      <Filter>Classes\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\assimp\Logger.hpp">
+      <Filter>Classes\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\assimp\LogStream.hpp">
+      <Filter>Classes\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\assimp\material.h">
+      <Filter>Classes\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\assimp\matrix3x3.h">
+      <Filter>Classes\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\assimp\matrix4x4.h">
+      <Filter>Classes\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\assimp\mesh.h">
+      <Filter>Classes\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\assimp\metadata.h">
+      <Filter>Classes\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\assimp\NullLogger.hpp">
+      <Filter>Classes\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\assimp\postprocess.h">
+      <Filter>Classes\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\assimp\ProgressHandler.hpp">
+      <Filter>Classes\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\assimp\quaternion.h">
+      <Filter>Classes\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\assimp\scene.h">
+      <Filter>Classes\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\assimp\texture.h">
+      <Filter>Classes\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\assimp\types.h">
+      <Filter>Classes\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\assimp\vector2.h">
+      <Filter>Classes\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\assimp\vector3.h">
+      <Filter>Classes\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\assimp\version.h">
+      <Filter>Classes\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\math\Vector3.h">
+      <Filter>Classes\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\matrix_clip_space.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\matrix_double2x2.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\matrix_double2x2_precision.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\matrix_double2x3.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\matrix_double2x3_precision.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\matrix_double2x4.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\matrix_double2x4_precision.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\matrix_double3x2.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\matrix_double3x2_precision.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\matrix_double3x3.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\matrix_double3x3_precision.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\matrix_double3x4.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\matrix_double3x4_precision.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\matrix_double4x2.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\matrix_double4x2_precision.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\matrix_double4x3.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\matrix_double4x3_precision.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\matrix_double4x4.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\matrix_double4x4_precision.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\matrix_float2x2.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\matrix_float2x2_precision.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\matrix_float2x3.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\matrix_float2x3_precision.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\matrix_float2x4.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\matrix_float2x4_precision.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\matrix_float3x2.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\matrix_float3x2_precision.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\matrix_float3x3.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\matrix_float3x3_precision.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\matrix_float3x4.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\matrix_float3x4_precision.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\matrix_float4x2.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\matrix_float4x2_precision.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\matrix_float4x3.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\matrix_float4x3_precision.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\matrix_float4x4.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\matrix_float4x4_precision.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\matrix_projection.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\matrix_relational.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\matrix_transform.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\quaternion_common.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\quaternion_double.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\quaternion_double_precision.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\quaternion_exponential.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\quaternion_float.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\quaternion_float_precision.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\quaternion_geometric.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\quaternion_relational.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\quaternion_transform.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\quaternion_trigonometric.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\scalar_common.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\scalar_constants.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\scalar_int_sized.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\scalar_relational.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\scalar_uint_sized.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\scalar_ulp.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\vector_bool1.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\vector_bool1_precision.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\vector_bool2.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\vector_bool2_precision.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\vector_bool3.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\vector_bool3_precision.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\vector_bool4.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\vector_bool4_precision.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\vector_common.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\vector_double1.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\vector_double1_precision.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\vector_double2.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\vector_double2_precision.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\vector_double3.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\vector_double3_precision.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\vector_double4.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\vector_double4_precision.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\vector_float1.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\vector_float1_precision.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\vector_float2.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\vector_float2_precision.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\vector_float3.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\vector_float3_precision.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\vector_float4.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\vector_float4_precision.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\vector_int1.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\vector_int1_precision.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\vector_int2.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\vector_int2_precision.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\vector_int3.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\vector_int3_precision.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\vector_int4.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\vector_int4_precision.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\vector_relational.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\vector_uint1.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\vector_uint1_precision.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\vector_uint2.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\vector_uint2_precision.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\vector_uint3.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\vector_uint3_precision.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\vector_uint4.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\vector_uint4_precision.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\glm\ext\vector_ulp.hpp">
+      <Filter>Classes\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lesson\Lesson1.h">
+      <Filter>Classes\lesson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MyUtils.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\game.ico">
+      <Filter>resource</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Classes\assimp\color4.inl">
+      <Filter>Classes\assimp</Filter>
+    </None>
+    <None Include="..\Classes\assimp\material.inl">
+      <Filter>Classes\assimp</Filter>
+    </None>
+    <None Include="..\Classes\assimp\matrix3x3.inl">
+      <Filter>Classes\assimp</Filter>
+    </None>
+    <None Include="..\Classes\assimp\matrix4x4.inl">
+      <Filter>Classes\assimp</Filter>
+    </None>
+    <None Include="..\Classes\assimp\quaternion.inl">
+      <Filter>Classes\assimp</Filter>
+    </None>
+    <None Include="..\Classes\assimp\vector2.inl">
+      <Filter>Classes\assimp</Filter>
+    </None>
+    <None Include="..\Classes\assimp\vector3.inl">
+      <Filter>Classes\assimp</Filter>
+    </None>
+    <None Include="..\Classes\glm\ext\matrix_clip_space.inl">
+      <Filter>Classes\glm\ext</Filter>
+    </None>
+    <None Include="..\Classes\glm\ext\matrix_projection.inl">
+      <Filter>Classes\glm\ext</Filter>
+    </None>
+    <None Include="..\Classes\glm\ext\matrix_relational.inl">
+      <Filter>Classes\glm\ext</Filter>
+    </None>
+    <None Include="..\Classes\glm\ext\matrix_transform.inl">
+      <Filter>Classes\glm\ext</Filter>
+    </None>
+    <None Include="..\Classes\glm\ext\quaternion_common.inl">
+      <Filter>Classes\glm\ext</Filter>
+    </None>
+    <None Include="..\Classes\glm\ext\quaternion_common_simd.inl">
+      <Filter>Classes\glm\ext</Filter>
+    </None>
+    <None Include="..\Classes\glm\ext\quaternion_exponential.inl">
+      <Filter>Classes\glm\ext</Filter>
+    </None>
+    <None Include="..\Classes\glm\ext\quaternion_geometric.inl">
+      <Filter>Classes\glm\ext</Filter>
+    </None>
+    <None Include="..\Classes\glm\ext\quaternion_relational.inl">
+      <Filter>Classes\glm\ext</Filter>
+    </None>
+    <None Include="..\Classes\glm\ext\quaternion_transform.inl">
+      <Filter>Classes\glm\ext</Filter>
+    </None>
+    <None Include="..\Classes\glm\ext\quaternion_trigonometric.inl">
+      <Filter>Classes\glm\ext</Filter>
+    </None>
+    <None Include="..\Classes\glm\ext\scalar_common.inl">
+      <Filter>Classes\glm\ext</Filter>
+    </None>
+    <None Include="..\Classes\glm\ext\scalar_constants.inl">
+      <Filter>Classes\glm\ext</Filter>
+    </None>
+    <None Include="..\Classes\glm\ext\scalar_relational.inl">
+      <Filter>Classes\glm\ext</Filter>
+    </None>
+    <None Include="..\Classes\glm\ext\scalar_ulp.inl">
+      <Filter>Classes\glm\ext</Filter>
+    </None>
+    <None Include="..\Classes\glm\ext\vector_common.inl">
+      <Filter>Classes\glm\ext</Filter>
+    </None>
+    <None Include="..\Classes\glm\ext\vector_relational.inl">
+      <Filter>Classes\glm\ext</Filter>
+    </None>
+    <None Include="..\Classes\glm\ext\vector_ulp.inl">
+      <Filter>Classes\glm\ext</Filter>
+    </None>
+  </ItemGroup>
+</Project>
