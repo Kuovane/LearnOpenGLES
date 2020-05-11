@@ -10,9 +10,13 @@
 #include <stdio.h>
 #include "MyGame.h"
 #include "png/png.h"
-#define  PRE_PATH "E:/learn/c2dx/cocos2d-x-lite_test/js-template-default/res/"
 #include "CCStdC.h"
 #include "lesson/Lesson1.h"
+#include "lesson/Lesson2.h"
+#include "lesson/Lesson3.h"
+#include "lesson/Lesson4.h"
+#include "lesson/Lesson5.h"
+#include "lesson/Lesson6.h"
 
 static const struct
 {
@@ -317,7 +321,8 @@ MyGame::~MyGame()
 
 void MyGame::run()
 {
-	Lesson1::run();
+	//Lesson1::run();
+	Lesson6::run();
 }
 
 bool MyGame::applicationDidFinishLaunching()

@@ -14,7 +14,7 @@
 class  MyUtils
 {
 public:
-	static GLFWwindow* createWindow();
+	static GLFWwindow* createWindow(void* keyCallBack = nullptr);
 	static int LoadGLTextures(std::string sFilePath, unsigned int type);
 	static unsigned char* loadPng(const char* fileName, unsigned long &nSize, int &width, int &height);
 

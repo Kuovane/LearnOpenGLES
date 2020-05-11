@@ -8,8 +8,9 @@
 
 #include "MyGame.h"
 #include "png/png.h"
-#define  PRE_PATH "E:/learn/c2dx/cocos2d-x-lite_test/js-template-default/res/"
+#define  PRE_PATH "E:/learn/c2dx/LearnOpenGLES/res/"
 #include "CCStdC.h"
+#include "image/stb_image.h"
 
 
 typedef struct
@@ -218,8 +219,11 @@ int MyUtils::LoadGLTextures(std::string sFilePath, unsigned int type)									//
 	unsigned long dataLen = 0;
 
 	std::string sFileName = PRE_PATH + sFilePath;//"textures/container2.png";
-	int width, height;
-	auto data = loadPng(sFileName.c_str(), dataLen, width, height);
+	//int width, height;
+	//auto data = loadPng(sFileName.c_str(), dataLen, width, height);
+	int width, height, nrChannels;
+	stbi_set_flip_vertically_on_load(true);
+	unsigned char *data = stbi_load(sFileName.c_str(), &width, &height, &nrChannels, 0);
 	GLuint textureId = 0;
 	// Load The Bitmap, Check For Errors, If Bitmap's Not Found Quit
 	if (data)
@@ -229,13 +233,16 @@ int MyUtils::LoadGLTextures(std::string sFilePath, unsigned int type)									//
 		// Typical Texture Generation Using Data From The Bitmap
 		glBindTexture(GL_TEXTURE_2D, textureId);
 		glTexImage2D(GL_TEXTURE_2D, 0, type, width, height, 0, type, GL_UNSIGNED_BYTE, data);
+		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
+		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
 		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
 		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+		glGenerateMipmap(GL_TEXTURE_2D);
 
-		delete[] data;
+		//delete[] data;
 	}
 
-
+	stbi_image_free(data);
 	return textureId;										// Return The Status
 }
 
@@ -243,6 +250,7 @@ int MyUtils::LoadGLTextures(std::string sFilePath, unsigned int type)									//
 
  GLuint MyUtils::createGLProgram(char* vertFile, char* fragFile)
 {
+	 std::cout << "createGLProgram\n" << std::endl;
 	GLuint  vertex_shader, fragment_shader, program;
 
 	unsigned long  nSize = 0;
@@ -302,7 +310,7 @@ int MyUtils::LoadGLTextures(std::string sFilePath, unsigned int type)									//
 }
 
 
- GLFWwindow* MyUtils::createWindow()
+ GLFWwindow* MyUtils::createWindow(void* keyCallBack)
  {
 	 GLFWwindow* window;
 	 glfwSetErrorCallback(error_callback);
@@ -316,7 +324,15 @@ int MyUtils::LoadGLTextures(std::string sFilePath, unsigned int type)									//
 		 glfwTerminate();
 		 exit(EXIT_FAILURE);
 	 }
-	 glfwSetKeyCallback(window, key_callback);
+	 if (keyCallBack)
+	 {
+		 glfwSetKeyCallback(window, (GLFWkeyfun)keyCallBack);
+	 }
+	 else
+	 {
+		 glfwSetKeyCallback(window, key_callback);
+	 }
+	 
 	 glfwMakeContextCurrent(window);
 	 gladLoadGL(glfwGetProcAddress);
 	 glfwSwapInterval(1);
