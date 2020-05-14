@@ -35,6 +35,9 @@
     <Filter Include="Classes\lesson">
       <UniqueIdentifier>{6871fb51-eeb9-42aa-86eb-37143cfd4264}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Classes\image">
+      <UniqueIdentifier>{b4e9d789-c25c-401f-a42c-cb9b5d3f06b9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -72,6 +75,24 @@
     </ClCompile>
     <ClCompile Include="..\Classes\MyUtils.cpp">
       <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lesson\Lesson2.cpp">
+      <Filter>Classes\lesson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lesson\Lesson3.cpp">
+      <Filter>Classes\lesson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\image\stb_image.cpp">
+      <Filter>Classes\image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lesson\Lesson4.cpp">
+      <Filter>Classes\lesson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lesson\Lesson5.cpp">
+      <Filter>Classes\lesson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lesson\Lesson6.cpp">
+      <Filter>Classes\lesson</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -597,6 +618,24 @@
     </ClInclude>
     <ClInclude Include="..\Classes\MyUtils.h">
       <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lesson\Lesson2.h">
+      <Filter>Classes\lesson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lesson\Lesson3.h">
+      <Filter>Classes\lesson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\image\stb_image.h">
+      <Filter>Classes\image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lesson\Lesson4.h">
+      <Filter>Classes\lesson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lesson\Lesson5.h">
+      <Filter>Classes\lesson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lesson\Lesson6.h">
+      <Filter>Classes\lesson</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
